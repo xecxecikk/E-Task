@@ -1,4 +1,4 @@
-# E-Task2 – Ürün Detay, Sepet ve Favori Yönetimi
+# E-Task – Ürün Detay, Sepet ve Favori Yönetimi
 
 Bu proje, UIKit tabanlı bir e-ticaret uygulamasının ürün detay ekranı için geliştirilmiştir. Aşağıdaki özellikleri içerir:
 
