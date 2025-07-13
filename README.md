@@ -1,19 +1,58 @@
-# E-Task – Ürün Detay, Sepet ve Favori Yönetimi
+# 🛒 E-Task – Ürün Detay, Sepet ve Favori Yönetimi
 
-Bu proje, UIKit tabanlı bir e-ticaret uygulamasının ürün detay ekranı için geliştirilmiştir. Aşağıdaki özellikleri içerir:
+UIKit tabanlı bu e-ticaret uygulaması, ürün detay ekranı etrafında şekillenen favori ve sepet yönetimi özelliklerini kapsamaktadır. MVVM mimarisi ile yapılandırılmıştır ve Core Data desteklidir.
 
-## Özellikler
+## 🚀 Özellikler
 
-- `ProductDetailViewModel` ile MVVM mimarisi
-- `FavoritesManager` ile favori ürünlerin Core Data üzerinden yönetimi
-- `CartManager` ile sepet işlemleri ve toplam fiyat hesabı
-- `CoreDataManager` ile generic CRUD işlemleri
-- `Unit Test` desteği (XCTest)
+- ✅ MVVM Mimarisi: `ProductDetailViewModel` ile ayrıştırılmış iş mantığı  
+- ❤️ Favori Yönetimi: `FavoritesManager` aracılığıyla Core Data üzerinde favori ürün takibi  
+- 🛒 Sepet İşlemleri: `CartManager` ile ürün ekleme ve toplam fiyat hesaplama  
+- 💾 Core Data İşlemleri: `CoreDataManager` ile generic CRUD işlemleri  
+- 🧪 Unit Test Desteği: `XCTest` ile `ViewModel`'lerin işlevselliği test edilmiştir  
 
-## Testler
+## 🧪 Testler
 
-- ViewModel iş mantığı (favori, sepete ekleme) test edilmiştir
+`ProductDetailViewModelTests` sınıfı üzerinden aşağıdaki senaryolar test edilmiştir:
 
-## Notlar
-- `.xcdatamodeld` test target’ına dahildir
-![screen](https://github.com/user-attachments/assets/53418c29-0383-4641-a394-a38f35bb32df)
+- ⭐️ Favori ürün durumu kontrolü  
+- 🔁 Favori toggle işlemi (ekleme/çıkarma)  
+- 🛍 Sepete ürün ekleme doğrulaması  
+
+
+
+## 📦 Core Data
+
+- Kullanılan model dosyası: `CoreDataModel.xcdatamodeld`
+- Entity'ler:
+  - `FavoriteEntity`
+  - `CartItemEntity`
+  -  Mapping katmanı mevcuttur.
+
+> **Not:** `CoreDataModel.xcdatamodeld` test hedefi (Test Target) altında da işaretlenmiştir. Testler çalışırken in-memory store kullanılır.
+
+
+
+## 📁 Proje Yapısı
+
+```
+E-Task/
+├── Managers/                # CoreDataManager, CartManager, FavoritesManager
+├── Models/                 # Product, CartItem
+├── Persistence/            # Core Data sınıfları ve mapping
+├── ViewModels/             # MVVM ViewModel dosyaları
+├── Views/                  # UIKit ViewController ve UI bileşenleri
+├── Resources/              # Constants, Assets, Notification.Name
+├── E-TaskTests/            # Mock sınıflar ve unit test dosyaları
+```
+
+## 🔮 Geliştirme Planı
+
+- [ ] Favori ürün listesi ekranı  
+- [ ] Sepet ekranı ve silme işlemi  
+- [ ] Ödeme ekranı (yalancı)  
+- [ ] Snapshot test desteği  
+
+
+## 🖼 Ekran Gif
+![screen](https://github.com/user-attachments/assets/0e5f94f1-5182-40df-a72f-73f0fb9ca829)
+
