@@ -54,5 +54,6 @@ E-Task/
 
 
 ## 🖼 Ekran Gif
-![screen](https://github.com/user-attachments/assets/0e5f94f1-5182-40df-a72f-73f0fb9ca829)
+
+![screen](https://github.com/user-attachments/assets/99d4d795-8241-45be-b5d0-7ca2482891c8)
 
