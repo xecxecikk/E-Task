@@ -37,6 +37,51 @@
 			);
 			target = 9D697A402E230FE80075C95B /* E-Task */;
 		};
+		9D89218F2E240CB400A5C238 /* Exceptions for "E-Task" folder in "E-TaskTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				App/MainTabBarController.swift,
+				"Extensions/UIButton+Extensions.swift",
+				"Extensions/UIImageView+Extensions.swift",
+				"Extensions/UIView+Constraints.swift",
+				Managers/CardManager.swift,
+				Managers/CoreDataManager.swift,
+				Managers/FavoritesManager.swift,
+				Managers/ImageCacheManager.swift,
+				Models/CartItem.swift,
+				Models/Product.swift,
+				Network/APIError.swift,
+				Network/APIService.swift,
+				Network/NetworkMonitor.swift,
+				"Persistence/CartItemEntity+Mapping.swift",
+				Persistence/CoreDataModel.xcdatamodeld,
+				"Persistence/FavoriteEntity+Mapping.swift",
+				Resources/APIConstants.swift,
+				Resources/Constants.swift,
+				Resources/Notification.Name.swift,
+				ViewModels/CartViewModel.swift,
+				ViewModels/FavoritesViewModel.swift,
+				ViewModels/ProductDetailViewModel.swift,
+				ViewModels/ProductListViewModel.swift,
+				ViewModels/ProfileViewModel.swift,
+				Views/Cart/CartViewController.swift,
+				Views/Common/InternetStatusViewController.swift,
+				Views/Components/CartItemCell.swift,
+				Views/Components/EmptyStateView.swift,
+				Views/Components/PriceLabel.swift,
+				Views/Components/PrimaryButton.swift,
+				Views/Components/ProductCardCell.swift,
+				Views/Components/StatusLabelView.swift,
+				Views/Components/TitleLabel.swift,
+				Views/Components/TopBarView.swift,
+				Views/FavoriteDetail/ProductDetailViewController.swift,
+				Views/Favorites/FavoritesViewController.swift,
+				Views/Filters/FilterViewController.swift,
+				Views/ProductList/ProductListViewController.swift,
+				Views/Profile/ProfileViewController.swift,
+			);
+			target = 9D697A592E230FEB0075C95B /* E-TaskTests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +89,7 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				9D697A6C2E230FEB0075C95B /* Exceptions for "E-Task" folder in "E-Task" target */,
+				9D89218F2E240CB400A5C238 /* Exceptions for "E-Task" folder in "E-TaskTests" target */,
 			);
 			path = "E-Task";
 			sourceTree = "<group>";
@@ -294,7 +340,6 @@
 				INFOPLIST_FILE = "E-Task/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +367,6 @@
 				INFOPLIST_FILE = "E-Task/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
